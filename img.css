@@ -1,0 +1,25 @@
+.img-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
+.img-text {
+    color: var(--dl-color-gray-white);
+    margin: var(--dl-space-space-threeunits);
+}
+.img-container1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.img-image {
+    width: 70%;
+    margin: var(--dl-space-space-twounits);
+    object-fit: cover;
+    border-color: #ffffff;
+    border-width: 2px;
+}

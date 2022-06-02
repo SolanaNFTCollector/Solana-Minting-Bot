@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Solana Minting Bot</title>
+        <link href="index.css" rel="stylesheet" />
+        <link href="style.css" rel="stylesheet" />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800&display=swap"
+            data-tag="font"
+        />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+            data-tag="font"
+        />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+            data-tag="font"
+        />
+    </head>
+    <body>
+        <div class="github-container">
+            <div class="github-container1">
+                <h1 class="github-text heading1">Solana Minting Bot</h1>
+                <h1 class="github-heading heading3">
+                    <span>A simple and easy to use Solana Minting Bot</span>
+                </h1>
+                <div class="github-container2">
+                    <button id="windows" class="github-button button">
+                        <span>
+                            <span>Install Windows</span>
+                            <span></span>
+                        </span>
+                    </button>
+                    <button id="mac" class="github-button1 button">
+                        <span>
+                            <span>Install Mac</span>
+                            <span></span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <script>
+            document
+                .getElementById("windows")
+                .addEventListener("click", function () {
+                    window.location.href = "windows.html";
+                });
+            document
+                .getElementById("mac")
+                .addEventListener("click", function () {
+                    window.location.href = "mac.html";
+                });
+        </script>
+    </body>
+</html>
